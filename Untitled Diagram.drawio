@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T01:04:19.064Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.0.0" etag="xCe8EUavSP3PPCcc6IYA" type="github"><diagram id="1_NeYDN5p9YYIEmb-qN8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-03-30T01:10:23.968Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="vMAUBMDCgGHqIcFNZGHg" version="17.0.0" type="github">
+  <diagram id="1_NeYDN5p9YYIEmb-qN8" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="3xcoVSS8NDKSHWUspGzX-2" target="3xcoVSS8NDKSHWUspGzX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-2" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="3xcoVSS8NDKSHWUspGzX-3" target="3xcoVSS8NDKSHWUspGzX-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-3" value="项目启动时初始化&lt;span&gt;MultiSet&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="3xcoVSS8NDKSHWUspGzX-5" target="3xcoVSS8NDKSHWUspGzX-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-5" value="在k线访问方法中计时" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="3xcoVSS8NDKSHWUspGzX-7" target="3xcoVSS8NDKSHWUspGzX-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-7" value="通过定时任务timmer每五分钟更新一次到redis并把内存数据清空" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3xcoVSS8NDKSHWUspGzX-9" value="通过分布式调度、每一个小时统计redis中数据发送到slack" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
